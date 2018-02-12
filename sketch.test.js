@@ -54,6 +54,6 @@ test('Sum42 function exists', () => {
   expect(sum42).toBeDefined();
 });
 
-test('Sum42 3 + 1 should be 46', () => {
+test('Sum42 3 + 1 should equal be 46', () => {
   expect(sum42(3, 1)).toBe(46);
 });
